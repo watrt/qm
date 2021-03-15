@@ -306,7 +306,7 @@
             this.slab_info.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.slab_info.LinkColor = System.Drawing.SystemColors.ControlText;
             this.slab_info.Name = "slab_info";
-            this.slab_info.Size = new System.Drawing.Size(825, 20);
+            this.slab_info.Size = new System.Drawing.Size(786, 20);
             this.slab_info.Spring = true;
             this.slab_info.Text = "开源的字体取模工具";
             this.slab_info.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -317,7 +317,7 @@
             this.slab_section.AutoSize = false;
             this.slab_section.Name = "slab_section";
             this.slab_section.Size = new System.Drawing.Size(131, 20);
-            this.slab_section.Text = "段数:0";
+            this.slab_section.Text = "分段数:0";
             this.slab_section.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // slab_count
