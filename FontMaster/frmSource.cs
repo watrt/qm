@@ -121,5 +121,18 @@ namespace FontMaster
 
             textBoxEdit.Text = text;
         }
+
+        private void addcode_Click(object sender, EventArgs e)
+        {
+            if(codeall.Text != "")
+            {
+                string[] s = codeall.Text.Split(' ')[0].Split('-');
+                Console.WriteLine(string.Format(",0x{0:G}-0x{1:G}",s[0],s[1]));
+                textBoxEdit.Text += string.Format(",0x{0:G}-0x{1:G}", s[0], s[1]);
+            }
+
+
+
+        }
     }
 }

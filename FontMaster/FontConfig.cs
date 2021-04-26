@@ -714,7 +714,7 @@ namespace FontMaster
         {
             CodePage = CodePageConverter.GetDisplayName(Encoding.Default.CodePage);
             SourceType = SourceTypeConverter.SourceTypeSection;
-            Source = "0x0020-0x007F,0xB0:A1-0xF7:FE";
+            Source = "0x0020-0x007F,0x20:00-0x2B:FF,0x4E:00-0x9F:FF,0xFF:00-0xFF:FF";
         }
 
         public MySource(MySource source)
